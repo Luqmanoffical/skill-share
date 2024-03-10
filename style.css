@@ -1,0 +1,234 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root
+{
+    --primary-text-color:#000000;
+    --secondary-text-color:#ffffff;
+    --accent-color-dark: #666666;
+    --accent-color:#002333;
+    --padding-inline-section:20px;
+}
+body
+{
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+p{
+    font-family:  Roboto, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+*
+{
+    background-color:#002333;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-head
+{
+ display: inline-block-flex;
+ background-color:var(--accent-color);
+ width: 100%;
+ color: #ffffff;
+ padding: 25px;
+}
+ul{
+    list-style: none;
+    
+}
+button
+{
+  border-color: #000000;
+  background-color: #ffffff;
+  padding: 6px 36px;
+  margin: 8px;
+  font-weight: bolder;
+  border-radius: 2px;
+
+}
+
+.nav
+{
+    color: #ffffff;
+    text-align: center;
+}
+.sign-up
+{
+    padding: 39px;
+    
+}
+.box
+{
+    border-radius: 10px;
+   padding: 32px 24px;
+    width: 357px;
+    height: 594px;
+    text-align: center;
+    background-color: #ffffff;
+    color: var(--accent-color);
+}
+image
+{
+    width: 100%;
+    height: 100%;
+}
+img
+{
+    flex-wrap: wrap;
+    display: inline-block;
+    overflow: clip;
+    width: 856px;
+    height: 599px;
+    padding: 32px 24px;
+    height: 594px;
+    
+}
+input
+{
+    border-radius: 5px;
+    border-color: #dad7d7;
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: medium;
+    margin: 8px;
+}
+.sec-head
+{
+    display: inline-block-flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-size: x-large;
+    padding: 95px;
+    font-weight: bolder;
+    
+}
+.sec-main
+{
+    font-size: large; 
+    margin: 10px;
+    font-weight: bolder;
+
+}
+.third
+{
+    position: relative;
+    font-size: large; 
+    color:white ;
+    margin: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 25px;
+}
+.box4
+{
+    flex-wrap: wrap;
+    display: inline-flex;
+    border-radius: 20px;
+    position: absolute;
+    width: 19%;
+    height: 57vh;
+    text-align: center;
+    background-color: #ffffff;
+    color: var(--accent-color);
+}
+.fifth-head
+{
+    padding-top: 30%;
+    color: white;
+    padding-left: 28vw;
+    padding-bottom: 19px;
+}
+.fift-one
+{
+    color: white;
+    padding-left: 4%;
+}
+.six-sec
+{
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white
+
+}
+.seven-sec
+{
+    color: white;
+    padding: 20px 24vw;
+}
+.accordion li label
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+label::before
+{
+    content: '+';
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+.accordion .content
+{
+    line-height: 26px;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s ;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 800px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: '-';
+}
+footer
+{
+    display: inline-flex;
+    color: white;
+
+}
